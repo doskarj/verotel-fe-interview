@@ -7,7 +7,7 @@ async function generateDog() {
 
     // TODO: ask what data.status exactly does?
     if (data.status) {
-      return data.message;
+      document.getElementById("dog-image").src = data.message;
     } else {
       throw "Something went wrong!";
     }
