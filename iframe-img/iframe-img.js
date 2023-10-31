@@ -1,16 +1,11 @@
-// Listen for localStorage change to generate new dog img
-window.addEventListener("storage", () => {
-  generateDogImage();
+window.addEventListener("message", function (event) {
+  generateDogImage(event.data);
 });
 
-// Init first image load
-generateDogImage();
-
-async function generateDogImage() {
-  var parsedData = JSON.parse(window.localStorage.dogData);
+async function generateDogImage(data) {
   try {
-    if (parsedData.status == "success") {
-      document.getElementById("dog-image").src = parsedData.message;
+    if (data.status == "success") {
+      document.getElementById("dog-image").src = data.message;
     } else {
       throw "Something went wrong!";
     }
