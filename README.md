@@ -13,4 +13,4 @@
 - Do jednoho z nich přesuň tlačítko, API call a jejich logiku
 - Do druhého z nich přesuň obrázek a jeho logiku
 
-3. Zdá se, že originální funkcionalita je rozbitá a obrázek v iframu nevidíme. Tvým úkolem je problém opravit.
+- Originální funkcionalita je nyní rozbitá a obrázek v iframu nevidíme. Tvým úkolem je problém opravit.
