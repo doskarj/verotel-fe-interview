@@ -1,0 +1,11 @@
+html, body {
+  padding: 0px;
+  margin: 0px;
+  min-height: 10px;
+}
+
+
+.dog-image {
+  width: 300px;
+  border-bottom: 10px solid #845EC2;
+}
