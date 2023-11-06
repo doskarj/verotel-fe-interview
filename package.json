@@ -1,0 +1,13 @@
+{
+  "name": "kristina-maximova",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Wiiolis/verotel-fe-interview.git",
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^0.34.6"
+  },
+  "scripts": {
+    "test": "vitest"
+  }
+}
